@@ -2,10 +2,13 @@ NHANES main site: https://www.cdc.gov/nchs/nhanes/index.htm
 
 NHANES data sets: https://wwwn.cdc.gov/nchs/nhanes/Default.aspx
 
+The merged csv files are in the
+[https://github.com/kshedden/statswpy-nhanes/tree/master/merged](merged) directory.
+
 __Documentation files__
 
 There are separate documentation files for every wave, but many variables have the same
-definitions across waves.  The links below are to the 2015-2016 wave.
+definitions across waves.  The links below are for the 2015-2016 wave.
 
 Demographics: https://wwwn.cdc.gov/Nchs/Nhanes/2015-2016/DEMO_I.htm
 

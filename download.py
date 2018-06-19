@@ -1,7 +1,7 @@
 """
 This script downloads selected data files from the NHANES repository,
 extracts selected columns, and merges across files to create one integrated
-file per wave.
+csv file per wave.
 """
 
 import pandas
