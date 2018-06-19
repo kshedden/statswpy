@@ -10,6 +10,7 @@ from os import path
 import pandas as pd
 import numpy as np
 
+# The base URL for all NHANES data
 base = "https://wwwn.cdc.gov/Nchs/Nhanes"
 
 # Demographics files
@@ -17,7 +18,7 @@ demo = [
     ("2003-2004", "DEMO_C.XPT"),
     ("2011-2012", "DEMO_G.XPT"),
     ("2015-2016", "DEMO_I.XPT"),
-    ]
+]
 
 # Blood pressure files
 bpx = [
@@ -53,7 +54,6 @@ hiq = [
     ("2011-2012", "HIQ_G.XPT"),
     ("2015-2016", "HIQ_I.XPT"),
 ]
-
 
 # Variables to keep
 kvar = ["SEQN", "RIAGENDR", "RIDAGEYR", "RIDRETH1", "DMDMARTL",
