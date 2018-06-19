@@ -3,7 +3,7 @@ NHANES main site: https://www.cdc.gov/nchs/nhanes/index.htm
 NHANES data sets: https://wwwn.cdc.gov/nchs/nhanes/Default.aspx
 
 The merged csv files are in the
-(https://github.com/kshedden/statswpy-nhanes/tree/master/merged)[merged] directory.
+[merged](https://github.com/kshedden/statswpy-nhanes/tree/master/merged) directory.
 
 __Documentation files__
 
