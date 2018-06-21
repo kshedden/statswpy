@@ -2,11 +2,13 @@ NHANES main site: https://www.cdc.gov/nchs/nhanes/index.htm
 
 NHANES data sets: https://wwwn.cdc.gov/nchs/nhanes/Default.aspx
 
+The [make.py] script can be used to rebuild the data sets.
+
 The merged csv files are in the
 [merged](https://github.com/kshedden/statswpy-nhanes/tree/master/merged) directory.
 
 Jupyter notebooks are in the
-[merged](https://github.com/kshedden/statswpy-nhanes/tree/master/notebooks) directory.
+[notebooks](https://github.com/kshedden/statswpy-nhanes/tree/master/notebooks) directory.
 
 __Documentation files__
 
