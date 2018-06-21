@@ -5,6 +5,9 @@ NHANES data sets: https://wwwn.cdc.gov/nchs/nhanes/Default.aspx
 The merged csv files are in the
 [merged](https://github.com/kshedden/statswpy-nhanes/tree/master/merged) directory.
 
+Jupyter notebooks are in the
+[merged](https://github.com/kshedden/statswpy-nhanes/tree/master/notebooks) directory.
+
 __Documentation files__
 
 There are separate documentation files for every wave, but many variables have the same
