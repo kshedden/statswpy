@@ -57,6 +57,7 @@ hiq = [
 
 # Variables to keep
 kvar = ["SEQN", "RIAGENDR", "RIDAGEYR", "RIDRETH1", "DMDMARTL",
+        "WTINT2YR", "SDMVPSU", "SDMVSTRA",
         "INDFMPIR", "DMDEDUC2", "DMDCITZN", "DMDHHSIZ",
         "BPXSY1", "BPXSY2", "BPXDI1", "BPXDI2", "BMXWT",
         "BMXHT", "BMXBMI", "BMXWAIST", "BMXARMC", "BMXARML",
