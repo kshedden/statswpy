@@ -116,4 +116,9 @@ for wave in waves:
 
     fname = path.join("merged", "nhanes_" +
     wave.replace("-", "_") + ".csv")
-    da.to_csv(fname, index=False)
+
+    for x in da.columns:
+        if pd.notnull(da[x]).all() & (da[x] == da[x].round()).all():
+            da[x] = da[x].astype(np.int)
+
+    da.to_csv(fname, float_format="%.2f", index=False)
